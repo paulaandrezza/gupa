@@ -26,4 +26,13 @@ const products = [
       "Controle remoto com 4 direções (frente, ré, esquerda e direita). Estilo rally/drift para manobras incríveis",
     url: "https://shopee.com.br/product/1600361255/23194310914/",
   },
+  {
+    imagem:
+      "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mdf01qw9qnyp0f.webp",
+    numero: 4,
+    nome: "Capivara Elétrica que anda, mexe o focinho e faz barulho",
+    descricao:
+      "Capivara Elétrica interativa que anda sozinha, mexe o focinho e emite sons divertidos! Um brinquedo encantador que garante momentos de diversão para crianças e adultos.",
+    url: "https://shopee.com.br/product/1600361255/22494316140/",
+  },
 ]
