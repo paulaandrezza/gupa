@@ -2,9 +2,28 @@ const products = [
   {
     imagem:
       "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mdqj5eigppyx29.webp",
-    numero: "001",
+    numero: 1,
     nome: "Papete Modare Feminina",
-    descricao: "Conforto Extremo com Palmilha Anatômica e Amortecimento",
-    url: "https://shopee.com.br/Papete-Modare-Feminina-%E2%80%93-Qualidade-PREMIUM-Conforto-Extremo-com-Palmilha-Anat%C3%B4mica-e-Amortecimento-i.1600361255.23698838864",
+    descricao:
+      "Com design moderno e palmilha anatômica, ela oferece amortecimento inteligente, maciez incomparável e suporte ideal para seus pés",
+    url: "https://shopee.com.br/product/1600361255/23698838864/",
+  },
+  {
+    imagem:
+      "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mdorqne2mabd96.webp",
+    numero: 2,
+    nome: "Arma de água",
+    descricao:
+      "Prepare-se para dominar qualquer batalha aquática com a HydroBlade X, a arma de água que une velocidade, longo alcance e recarga inteligente.",
+    url: "https://shopee.com.br/product/1600361255/22794334910/",
+  },
+  {
+    imagem:
+      "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mdeow7irfkc9c7.webp",
+    numero: 3,
+    nome: "Carrinho de Controle Remoto",
+    descricao:
+      "Controle remoto com 4 direções (frente, ré, esquerda e direita). Estilo rally/drift para manobras incríveis",
+    url: "https://shopee.com.br/product/1600361255/23194310914/",
   },
 ]

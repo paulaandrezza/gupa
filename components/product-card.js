@@ -36,7 +36,17 @@ class ProductCard extends HTMLElement {
         }
         .info {
           flex: 1;
+          text-align: left;
         }
+
+        p.is-size-7 {
+          display: -webkit-box;
+          -webkit-line-clamp: 3; /* máximo de 3 linhas */
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
       </style>
 
       <div class="product-card-wrapper card">
@@ -44,7 +54,10 @@ class ProductCard extends HTMLElement {
           <div class="product-card">
             <img src="${imagem}" alt="${nome}">
             <div class="info">
-              <p class="subtitle is-6"><b>#${numero} - </b>${nome}</p>
+              <p class="subtitle is-6 mb-1"><b>#${String(numero).padStart(
+                3,
+                "0"
+              )} - </b>${nome}</p>
               <p class="is-size-7">${descricao}</p>
             </div>
           </div>
@@ -55,7 +68,7 @@ class ProductCard extends HTMLElement {
     this.querySelector(".product-card-wrapper").addEventListener(
       "click",
       () => {
-        window.open(url, "_blank")
+        window.open(url)
       }
     )
   }

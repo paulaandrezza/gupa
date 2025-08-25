@@ -1,5 +1,7 @@
 const container = document.getElementById("product-list")
 
+products.sort((a, b) => b.numero - a.numero)
+
 products.forEach((p) => {
   const card = document.createElement("product-card")
   card.setAttribute("imagem", p.imagem)

@@ -21,12 +21,10 @@ i {
 
 body {
   font-family: "Quicksand", sans-serif;
-  height: 100vh;
 }
 
 section {
   max-width: 600px;
-  height: 100vh;
   margin: 0 auto;
 }
 
