@@ -35,4 +35,13 @@ const products = [
       "Capivara Elétrica interativa que anda sozinha, mexe o focinho e emite sons divertidos! Um brinquedo encantador que garante momentos de diversão para crianças e adultos.",
     url: "https://shopee.com.br/product/1600361255/22494316140/",
   },
+  {
+    imagem:
+      "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mdqczm3dnlx5bb.webp",
+    numero: 5,
+    nome: "Girafa Interativa com Sons",
+    descricao:
+      "Com músicas animadas, sons de animais e botões coloridos, esse brinquedo incentiva a curiosidade natural da criança, promovendo o aprendizado de forma lúdica e envolvente.",
+    url: "https://shopee.com.br/product/1600361255/22594340755/",
+  },
 ]
