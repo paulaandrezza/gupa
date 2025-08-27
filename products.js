@@ -44,4 +44,13 @@ const products = [
       "Com músicas animadas, sons de animais e botões coloridos, esse brinquedo incentiva a curiosidade natural da criança, promovendo o aprendizado de forma lúdica e envolvente.",
     url: "https://shopee.com.br/product/1600361255/22594340755/",
   },
+  {
+    imagem:
+      "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mdeow7is20upfa.webp",
+    numero: 6,
+    nome: "Carrinho de Controle Remoto",
+    descricao:
+      " Este carrinho de controle remoto permite movimentos em 4 direções (frente, trás, esquerda e direita), proporcionando total liberdade para manobras emocionantes.",
+    url: "https://shopee.com.br/product/1600361255/20799862050/",
+  },
 ]
